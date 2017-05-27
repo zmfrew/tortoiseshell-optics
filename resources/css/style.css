@@ -1,0 +1,179 @@
+html {
+  font-size: 18px;
+  line-height: 1.4px;
+}
+
+/* Main banner background */
+
+div.main-banner {
+  background-image:
+    url("../../resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+}
+
+/* Navigation bar */
+
+header {
+  margin: auto;
+  width: 960px;
+  font-family: Helvetica;
+  font-size: 1rem;
+  background-color: cadetblue;
+  display: flex;
+  top: 1rem;
+  position: relative;
+  height: 5rem;
+  align-items: center;
+}
+
+a img {
+  height: 1.5rem;
+}
+
+nav {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 1rem;
+}
+
+div a {
+  padding: 1rem;
+}
+
+header a {
+  display: inline-flex;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 2 rem 0.5rem 0;
+}
+
+#title {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#titleimage {
+  padding: 1rem 1rem 1rem 2rem;
+  margin: 0;
+}
+
+/* Motto text box */
+
+div.motto {
+  margin-top: 11rem;
+  position: relative;
+  padding: 1.5rem 5rem;
+  font-family: Helvetica;
+  font-weight bold;
+  line-height: 1.2rem;
+  background-color: white;
+  left: 31rem;
+  display: inline-block;
+  height: 3.5rem;
+}
+
+/* Picture container with services */
+
+section.picture-container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  width: 100%;
+}
+
+div.services {
+  height: 8rem;
+  width: 5rem;
+  padding: 0 3rem 0 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img.service {
+  width: 5rem;
+}
+
+img.paper {
+  width: 3.5rem;
+}
+
+h4 {
+  line-height: 1.4rem;
+  font-family: Helvetica;
+  font-weight: normal;
+}
+
+/* Philosophy and appointments info */
+
+section.info-containers {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  margin: auto;
+}
+
+div.info-container {
+  width: 35%;
+  margin: 3rem 5% 5rem 5%;
+}
+
+div.info-title {
+  display:flex;
+  height: 2rem;
+  align-items: center;
+  background-color: cadetblue;
+  width: 70%;
+}
+
+h3 {
+  padding: 0.5rem 1.25rem;
+  font-family: Helvetica;
+  color: white;
+}
+
+p {
+  display: block;
+  line-height: 1.4rem;
+  text-align: left;
+  font-family: Helvetica;
+}
+
+/* Footer with copyright */
+
+footer {
+  max-width: 960px;
+  background-color: azure;
+  margin: auto;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+h5 {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: normal;
+}
