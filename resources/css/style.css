@@ -177,3 +177,38 @@ h5 {
   font-size: 1rem;
   font-weight: normal;
 }
+
+/* Media queries for Tablet version */
+
+@media only screen and (max-width: 1024px) {
+  header {
+    margin: 0 auto;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 1rem;
+    background-color: cadetblue;
+    display: flex;
+    position: relative;
+    top: 0;
+    height: 5rem;
+    align-items: center;
+  }
+  div.main-banner {
+    height: 22rem;
+  }
+  div.motto {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    position: relative;
+    padding: 0.75rem 3.75rem;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    left: 17rem;
+    display: inline-block;
+    height: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+}
